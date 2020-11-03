@@ -1,17 +1,14 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\index.js"
-        }
-    ]
+    "name":"nonutbotdiscord"
+    "version":"1.0.0",
+    "description":"",
+    "main":"index.js",
+    "scripts":{
+        "test":"echo\*Error: no test specified\" && exit1"
+    },
+    "author": "RedDot",
+    "license": "ISC",
+    "dependencies":{
+    "discord.js": "^11.2.1"
+    }
 }
