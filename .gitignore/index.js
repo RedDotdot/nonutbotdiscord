@@ -5,7 +5,7 @@ const Client = new Discord.Client;
 jour = new Date().getDate().toString()
 verif = 0
 MainChannel = 0
-Client.login("NzcyNzM4MTMxMzMzMjE4MzM1.X5_Cdw.fVFYlFZjK3BSnKPRRscJjxX7lBc");
+Client.login(process.env.TOKEN);
 Client.on("ready", () => {console.log("Ready");})
 az = 0
 //Constructeur Objet player
